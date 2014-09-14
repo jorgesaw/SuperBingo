@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+        <class name="ar.com.jorgesaw.superbingo.modelo.dto.Sorteo" table="SORTEOS">
+            	
+            <!-- <cache usage="read-write" /> -->
+            
+            <id name="idSorteo" column="id_sorteo" type="long" length="13">
+             	<generator class="native" />
+            </id>
+
+            <property name="numeros" column="numeros" type="string"  
+                not-null="true" />
+            
+            <property name="fechaSorteo" column="fecha_sorteo" type="date"
+                not-null="true" />
+    	
+        	<many-to-one 
+            		name="loteria" 
+            		lazy="false" 
+            		column="id_loteria" 
+            		not-null="true"
+            		class="ar.com.jorgesaw.superbingo.modelo.dto.Loteria" />
+		
+	</class>     
+           
+</hibernate-mapping>

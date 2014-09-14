@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+        <class name="ar.com.jorgesaw.superbingo.modelo.dto.Serie" table="SERIES">
+            	
+            	<!-- <cache usage="read-write" /> -->
+            
+                <id name="idSerie" column="id_serie" type="long" length="13">
+                    <generator class="native" />
+                </id>
+
+                <property name="numSerie" column="num_serie" type="int" 
+                    not-null="true" />
+                
+                <property name="fechaInicio" column="fecha_inicio" type="date" />
+                <property name="fechaVence" column="fecha_vence" type="date" />
+                
+                <property name="generacion" column="generacion" type="int" 
+                    not-null="false" length="4" />
+                <property name="generado" column="generado" type="boolean" 
+                    not-null="false" />
+                
+                <!-- <many-to-one name="institucion" column="institucion" lazy="false"
+		            class="ar.com.jorgesaw.bingo.modelo.dto.Institucion" /> -->
+              
+                <set name="cartones" table="SERIES_CARTONES" cascade="all-delete-orphan" 
+                    lazy="true" order-by="id_carton asc" sort="natural" inverse="true">
+                    <key column="id_serie" not-null="true" />
+                    <many-to-many column="id_carton" unique="true" 
+                        class="ar.com.jorgesaw.superbingo.modelo.dto.Carton" />
+                </set>
+    	
+        <many-to-one 
+            name="institucion" 
+            lazy="false" 
+            column="id_institucion" 
+            not-null="true" 
+            class="ar.com.jorgesaw.superbingo.modelo.dto.Institucion" /> 
+		
+	</class>     
+           
+</hibernate-mapping>

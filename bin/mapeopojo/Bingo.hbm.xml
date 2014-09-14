@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+        <class name="ar.com.jorgesaw.superbingo.modelo.dto.Bingo" table="BINGOS">
+            	
+            	<!-- <cache usage="read-write" /> -->
+            
+                <id name="idBingo" column="id_bingo" type="long" length="13">
+                    <generator class="native" />
+                </id>
+                <property name="titulo" column="titulo" type="string" not-null="true" />
+                <property name="observaciones" column="observaciones" type="string" 
+                    not-null="true" />
+                <property name="vendido" column="vendido" type="boolean" not-null="true" />
+                <property name="fechaCrea" column="fecha_crea" type="date" not-null="true" />
+                <property name="fechaVence" column="fecha_vence" type="date" not-null="true" />
+                
+                <many-to-one 
+            		name="loteria" 
+            		lazy="false" 
+            		column="id_loteria"
+            		not-null="true" 
+            		class="ar.com.jorgesaw.superbingo.modelo.dto.Loteria" />
+                
+                <property name="premio" column="premio" type="string" not-null="true" />
+              
+                <component name="lotDetalle" lazy="false"  
+                    class="ar.com.jorgesaw.superbingo.modelo.dto.LoteriaDetalle" >
+                    <property name="periodoJug" column="periodo_jug" type="int" length="1" 
+                        not-null="true" />
+                    <property name="numJugadas" column="num_jug" type="int" length="2" 
+                        not-null="true" />
+                    <property name="diasJugada" column="dias_jug" type="string" length="10" />
+                </component>
+                
+                <set name="series" table="BINGOS_SERIES" cascade="all-delete-orphan" 
+                    lazy="true" order-by="id_serie asc" sort="natural" inverse="true" >
+                    <key column="id_bingo" not-null="true" />
+                    <many-to-many column="id_serie" unique="true" 
+                        class="ar.com.jorgesaw.superbingo.modelo.dto.Serie" />
+                </set>
+	
+           </class>     
+           
+</hibernate-mapping>

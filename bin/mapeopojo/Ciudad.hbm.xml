@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ar.com.jorgesaw.dto.Ciudad" table="CIUDADES">
+        <id name="idCiudad" column="id_ciudad" type="int">
+            <generator class="native" />
+        </id>
+        <property name="nomCiudad" column="nom_ciudad" type="string" length="40"
+             not-null="true" />
+        <property name="codPostal" column="cod_postal" type="string" length="12" 
+            not-null="true"/>
+        <property name="DDN" column="DDN"  type="string" length="10" 
+            not-null="true" />
+        
+        <many-to-one name="prov" column="id_provincia" lazy="false" 
+            not-null="true" 
+            class="ar.com.jorgesaw.dto.Provincia" />
+    </class>
+</hibernate-mapping>

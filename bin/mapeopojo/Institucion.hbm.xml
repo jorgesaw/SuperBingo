@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ar.com.jorgesaw.superbingo.modelo.dto.Institucion" 
+        table="INSTITUCIONES">
+        <id name="idInstit" column="id_instit" type="long">
+        	<generator class="native" />    
+	    </id>
+	    
+        <property name="tipo" column="tipo" type="string" length="30" 
+            not-null="true" />
+        <property name="descripcion" column="descripcion" type="string" length="255"
+            not-null="true" />
+        <property name="alias" column="alias" type="string" length="40" 
+            not-null="true" />
+        <property name="celular" column="celular" type="string" length="18" />
+        <property name="telefono" column="telefono" type="string" length="18" />
+        
+        <component name="direccion" lazy="true"
+            class="ar.com.jorgesaw.superbingo.modelo.dto.Direccion">
+        	
+        	<property name="calle" column="calle" type="string" length="40"
+            	 not-null="true" />
+        	<property name="altura" column="altura" type="string" length="6" 
+            	not-null="true"/>
+        	<property name="piso" column="piso"  type="string" length="4" />
+        	<property name="depto" column="depto"  type="string" length="4" />
+        	
+        	<many-to-one name="ciudad" lazy="false"
+            	column="id_ciudad" 
+            	unique="false" 
+            	not-null="true"
+            	class="ar.com.jorgesaw.dto.Ciudad" />
+        
+        	<!-- <many-to-one name="prov" lazy="false"
+            	column="id_prov" 
+            	unique="false"
+            	not-null="true" /> -->
+        
+        </component>
+	        
+    </class>
+</hibernate-mapping>

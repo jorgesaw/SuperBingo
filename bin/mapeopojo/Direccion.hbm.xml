@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ar.com.jorgesaw.superbingo.modelo.dto.Direccion" 
+        table="DIRECCIONES">
+        <!-- <id name="idDireccion" column="id_direccion" type="long">
+            <generator class="native" />
+        </id> -->
+        <property name="calle" column="calle" type="string" length="40"
+             not-null="true" />
+        <property name="altura" column="altura" type="int" length="6" 
+            not-null="true"/>
+        <property name="piso" column="piso"  type="int" length="4" />
+        <property name="depto" column="depto"  type="int" length="4" />
+        
+        <many-to-one name="ciudad" 
+            column="id_ciudad" 
+            unique="true" 
+            lazy="false"
+            not-null="true"
+            class="ar.com.jorgesaw.dto.Ciudad" />
+        
+        <!-- <many-to-one name="prov" 
+            column="id_prov" 
+            unique="true"
+            lazy="false"
+            not-null="true" /> -->
+    </class>
+</hibernate-mapping>

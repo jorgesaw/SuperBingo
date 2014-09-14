@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/SUPERBINGO</property>
+        
+        <!-- <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property> -->
+        <!-- <property name="hibernate.connection.url">jdbc:sqlite:dataBase\MIBINGO.db</property> -->
+        
+        <!-- <property name="hibernate.connection.username"></property> -->
+        <!-- <property name="hibernate.connection.password"></property> -->
+        
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+
+        <!-- <property name="hibernate.default_schema">MIBINGO</property> -->
+        
+        <!-- org.hibernate.dialect.MySQL5InnoDBDialect.class -->
+        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+
+        <!-- <property name="dialect">ar.com.jorgesaw.util.database.dialect.SQLiteDialect</property> -->
+        
+        <property name="show_sql">true</property>
+        
+        <!-- Enable Hibernate's current session context -->
+        <property name="current_session_context_class">thread</property>
+        
+        <property name="hibernate.cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        
+        <property name="hibernate.jdbc.batch_size">30</property>
+		<!-- <property name="hibernate.hbm2ddl.auto">create</property> -->
+		
+		<mapping resource="mapeopojo/Bingo.hbm.xml" />
+        <mapping resource="mapeopojo/Serie.hbm.xml" />
+		<mapping resource="mapeopojo/Carton.hbm.xml" />
+		<mapping resource="mapeopojo/Empleado.hbm.xml" />
+		<mapping resource="mapeopojo/Provincia.hbm.xml" />
+		<mapping resource="mapeopojo/Ciudad.hbm.xml"/>
+		<mapping resource="mapeopojo/Institucion.hbm.xml" />
+		<mapping resource="mapeopojo/Loteria.hbm.xml" />
+		<mapping resource="mapeopojo/TipoLoteria.hbm.xml" />
+		<mapping resource="mapeopojo/HoraLoteria.hbm.xml" />
+		<mapping resource="mapeopojo/Sorteo.hbm.xml" />
+		<mapping resource="mapeopojo/Ganador.hbm.xml" />
+		
+    </session-factory>
+
+</hibernate-configuration>

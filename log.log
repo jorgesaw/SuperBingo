@@ -1,0 +1,454 @@
+18 dic 2013 - 01:45:07 [INFO ] dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18 dic 2013 - 01:45:07 [INFO ] transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+18 dic 2013 - 01:45:07 [INFO ] transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - JDBC batch size: 30
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Scrollable result sets: enabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Connection release mode: auto
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Maximum outer join fetch depth: 2
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Default batch fetch size: 1
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Generate SQL with comments: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Order SQL updates by primary key: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Order SQL inserts for batching: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+18 dic 2013 - 01:45:07 [INFO ] ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Query language substitutions: {}
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - JPA-QL strict compliance: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Second-level cache: enabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Query cache: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+18 dic 2013 - 01:45:07 [INFO ] bridge.RegionFactoryCacheProviderBridge - Cache provider: org.hibernate.cache.NoCacheProvider
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Structured second-level cache entries: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Echoing all SQL to stdout
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Statistics: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Default entity-mode: pojo
+18 dic 2013 - 01:45:07 [INFO ] cfg.SettingsFactory - Named query checking : enabled
+18 dic 2013 - 01:45:07 [INFO ] impl.SessionFactoryImpl - building session factory
+18 dic 2013 - 01:45:08 [INFO ] impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+18 dic 2013 - 01:45:57 [DEBUG] control.CtrlVentana - Cerrando ventana...
+18 dic 2013 - 01:45:57 [INFO ] control.CtrlVentana - Cerrando aplicación...
+18 dic 2013 - 01:46:01 [INFO ] vista.TestVentanaMainBingo - Iniciando test desde...
+18 dic 2013 - 01:46:01 [INFO ] vista.TestVentanaMainBingo - ...C:\Users\jorgesaw\workspace\SuperBingo
+18 dic 2013 - 01:46:05 [INFO ] cfg.Environment - Hibernate 3.3.2.GA
+18 dic 2013 - 01:46:05 [INFO ] cfg.Environment - hibernate.properties not found
+18 dic 2013 - 01:46:05 [INFO ] cfg.Environment - Bytecode provider name : javassist
+18 dic 2013 - 01:46:05 [INFO ] cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+18 dic 2013 - 01:46:05 [INFO ] cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+18 dic 2013 - 01:46:05 [INFO ] cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+18 dic 2013 - 01:46:05 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Bingo.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Bingo -> BINGOS
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Bingo.series -> BINGOS_SERIES
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Serie.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Serie -> SERIES
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Serie.cartones -> SERIES_CARTONES
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Carton.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Carton -> CARTONES
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Empleado.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Empleado -> EMPLEADOS
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Cobrador -> EMPLEADOS
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Vendedor -> EMPLEADOS
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Provincia.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Provincia -> PROVINCIAS
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ciudad.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Ciudad -> CIUDADES
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Institucion.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Institucion -> INSTITUCIONES
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Loteria.hbm.xml
+18 dic 2013 - 01:46:06 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Loteria -> LOTERIAS
+18 dic 2013 - 01:46:06 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/TipoLoteria.hbm.xml
+18 dic 2013 - 01:46:07 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.TipoLoteria -> TIPO_LOTERIAS
+18 dic 2013 - 01:46:07 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/HoraLoteria.hbm.xml
+18 dic 2013 - 01:46:07 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.HoraLoteria -> HORA_LOTERIAS
+18 dic 2013 - 01:46:07 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Sorteo.hbm.xml
+18 dic 2013 - 01:46:07 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Sorteo -> SORTEOS
+18 dic 2013 - 01:46:07 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ganador.hbm.xml
+18 dic 2013 - 01:46:07 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Ganador -> GANADORES
+18 dic 2013 - 01:46:07 [INFO ] cfg.Configuration - Configured SessionFactory: null
+18 dic 2013 - 01:46:07 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Empleado.colCartones -> CARTONES
+18 dic 2013 - 01:46:07 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.dto.Provincia.colCiudades -> CIUDADES
+18 dic 2013 - 01:46:07 [INFO ] connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+18 dic 2013 - 01:46:07 [INFO ] connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+18 dic 2013 - 01:46:07 [INFO ] connection.DriverManagerConnectionProvider - autocommit mode: false
+18 dic 2013 - 01:46:07 [INFO ] connection.DriverManagerConnectionProvider - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/SUPERBINGO
+18 dic 2013 - 01:46:07 [INFO ] connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****}
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - RDBMS: MySQL, version: 5.6.11-log
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw )
+18 dic 2013 - 01:46:08 [INFO ] dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18 dic 2013 - 01:46:08 [INFO ] transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+18 dic 2013 - 01:46:08 [INFO ] transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - JDBC batch size: 30
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Scrollable result sets: enabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Connection release mode: auto
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Maximum outer join fetch depth: 2
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Default batch fetch size: 1
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Generate SQL with comments: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Order SQL updates by primary key: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Order SQL inserts for batching: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+18 dic 2013 - 01:46:08 [INFO ] ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Query language substitutions: {}
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - JPA-QL strict compliance: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Second-level cache: enabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Query cache: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+18 dic 2013 - 01:46:08 [INFO ] bridge.RegionFactoryCacheProviderBridge - Cache provider: org.hibernate.cache.NoCacheProvider
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Structured second-level cache entries: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Echoing all SQL to stdout
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Statistics: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Default entity-mode: pojo
+18 dic 2013 - 01:46:08 [INFO ] cfg.SettingsFactory - Named query checking : enabled
+18 dic 2013 - 01:46:08 [INFO ] impl.SessionFactoryImpl - building session factory
+18 dic 2013 - 01:46:09 [INFO ] impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+18 dic 2013 - 01:48:54 [INFO ] vista.TestVentanaMainBingo - Iniciando test desde...
+18 dic 2013 - 01:48:54 [INFO ] vista.TestVentanaMainBingo - ...C:\Users\jorgesaw\workspace\SuperBingo
+18 dic 2013 - 01:48:59 [INFO ] cfg.Environment - Hibernate 3.3.2.GA
+18 dic 2013 - 01:48:59 [INFO ] cfg.Environment - hibernate.properties not found
+18 dic 2013 - 01:48:59 [INFO ] cfg.Environment - Bytecode provider name : javassist
+18 dic 2013 - 01:48:59 [INFO ] cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+18 dic 2013 - 01:48:59 [INFO ] cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+18 dic 2013 - 01:48:59 [INFO ] cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+18 dic 2013 - 01:49:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Bingo.hbm.xml
+18 dic 2013 - 01:49:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Bingo -> BINGOS
+18 dic 2013 - 01:49:00 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Bingo.series -> BINGOS_SERIES
+18 dic 2013 - 01:49:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Serie.hbm.xml
+18 dic 2013 - 01:49:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Serie -> SERIES
+18 dic 2013 - 01:49:00 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Serie.cartones -> SERIES_CARTONES
+18 dic 2013 - 01:49:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Carton.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Carton -> CARTONES
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Empleado.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Empleado -> EMPLEADOS
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Cobrador -> EMPLEADOS
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Vendedor -> EMPLEADOS
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Provincia.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Provincia -> PROVINCIAS
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ciudad.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Ciudad -> CIUDADES
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Institucion.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Institucion -> INSTITUCIONES
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Loteria.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Loteria -> LOTERIAS
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/TipoLoteria.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.TipoLoteria -> TIPO_LOTERIAS
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/HoraLoteria.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.HoraLoteria -> HORA_LOTERIAS
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Sorteo.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Sorteo -> SORTEOS
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ganador.hbm.xml
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Ganador -> GANADORES
+18 dic 2013 - 01:49:01 [INFO ] cfg.Configuration - Configured SessionFactory: null
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Empleado.colCartones -> CARTONES
+18 dic 2013 - 01:49:01 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.dto.Provincia.colCiudades -> CIUDADES
+18 dic 2013 - 01:49:01 [INFO ] connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+18 dic 2013 - 01:49:01 [INFO ] connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+18 dic 2013 - 01:49:01 [INFO ] connection.DriverManagerConnectionProvider - autocommit mode: false
+18 dic 2013 - 01:49:01 [INFO ] connection.DriverManagerConnectionProvider - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/SUPERBINGO
+18 dic 2013 - 01:49:01 [INFO ] connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****}
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - RDBMS: MySQL, version: 5.6.11-log
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw )
+18 dic 2013 - 01:49:02 [INFO ] dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18 dic 2013 - 01:49:02 [INFO ] transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+18 dic 2013 - 01:49:02 [INFO ] transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - JDBC batch size: 30
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Scrollable result sets: enabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Connection release mode: auto
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Maximum outer join fetch depth: 2
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Default batch fetch size: 1
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Generate SQL with comments: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Order SQL updates by primary key: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Order SQL inserts for batching: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+18 dic 2013 - 01:49:02 [INFO ] ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Query language substitutions: {}
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - JPA-QL strict compliance: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Second-level cache: enabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Query cache: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+18 dic 2013 - 01:49:02 [INFO ] bridge.RegionFactoryCacheProviderBridge - Cache provider: org.hibernate.cache.NoCacheProvider
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Structured second-level cache entries: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Echoing all SQL to stdout
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Statistics: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Default entity-mode: pojo
+18 dic 2013 - 01:49:02 [INFO ] cfg.SettingsFactory - Named query checking : enabled
+18 dic 2013 - 01:49:03 [INFO ] impl.SessionFactoryImpl - building session factory
+18 dic 2013 - 01:49:04 [INFO ] impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+18 dic 2013 - 01:50:40 [DEBUG] control.CtrlVentana - Cerrando ventana...
+18 dic 2013 - 01:50:40 [INFO ] control.CtrlVentana - Cerrando aplicación...
+18 dic 2013 - 05:54:51 [INFO ] vista.TestVentanaMainBingo - Iniciando test desde...
+18 dic 2013 - 05:54:51 [INFO ] vista.TestVentanaMainBingo - ...C:\Users\jorgesaw\workspace\SuperBingo
+18 dic 2013 - 05:54:57 [INFO ] cfg.Environment - Hibernate 3.3.2.GA
+18 dic 2013 - 05:54:57 [INFO ] cfg.Environment - hibernate.properties not found
+18 dic 2013 - 05:54:57 [INFO ] cfg.Environment - Bytecode provider name : javassist
+18 dic 2013 - 05:54:57 [INFO ] cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+18 dic 2013 - 05:54:58 [INFO ] cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+18 dic 2013 - 05:54:58 [INFO ] cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+18 dic 2013 - 05:54:58 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Bingo.hbm.xml
+18 dic 2013 - 05:54:59 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Bingo -> BINGOS
+18 dic 2013 - 05:54:59 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Bingo.series -> BINGOS_SERIES
+18 dic 2013 - 05:54:59 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Serie.hbm.xml
+18 dic 2013 - 05:54:59 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Serie -> SERIES
+18 dic 2013 - 05:54:59 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Serie.cartones -> SERIES_CARTONES
+18 dic 2013 - 05:54:59 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Carton.hbm.xml
+18 dic 2013 - 05:54:59 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Carton -> CARTONES
+18 dic 2013 - 05:54:59 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Empleado.hbm.xml
+18 dic 2013 - 05:54:59 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Empleado -> EMPLEADOS
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Cobrador -> EMPLEADOS
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Vendedor -> EMPLEADOS
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Provincia.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Provincia -> PROVINCIAS
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ciudad.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Ciudad -> CIUDADES
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Institucion.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Institucion -> INSTITUCIONES
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Loteria.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Loteria -> LOTERIAS
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/TipoLoteria.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.TipoLoteria -> TIPO_LOTERIAS
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/HoraLoteria.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.HoraLoteria -> HORA_LOTERIAS
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Sorteo.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Sorteo -> SORTEOS
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ganador.hbm.xml
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Ganador -> GANADORES
+18 dic 2013 - 05:55:00 [INFO ] cfg.Configuration - Configured SessionFactory: null
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Empleado.colCartones -> CARTONES
+18 dic 2013 - 05:55:00 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.dto.Provincia.colCiudades -> CIUDADES
+18 dic 2013 - 05:55:00 [INFO ] connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+18 dic 2013 - 05:55:00 [INFO ] connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+18 dic 2013 - 05:55:00 [INFO ] connection.DriverManagerConnectionProvider - autocommit mode: false
+18 dic 2013 - 05:55:00 [INFO ] connection.DriverManagerConnectionProvider - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/SUPERBINGO
+18 dic 2013 - 05:55:00 [INFO ] connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****}
+18 dic 2013 - 05:55:02 [INFO ] cfg.SettingsFactory - RDBMS: MySQL, version: 5.6.11-log
+18 dic 2013 - 05:55:02 [INFO ] cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw )
+18 dic 2013 - 05:55:03 [INFO ] dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+18 dic 2013 - 05:55:03 [INFO ] transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+18 dic 2013 - 05:55:03 [INFO ] transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - JDBC batch size: 30
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Scrollable result sets: enabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Connection release mode: auto
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Maximum outer join fetch depth: 2
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Default batch fetch size: 1
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Generate SQL with comments: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Order SQL updates by primary key: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Order SQL inserts for batching: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+18 dic 2013 - 05:55:03 [INFO ] ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Query language substitutions: {}
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - JPA-QL strict compliance: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Second-level cache: enabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Query cache: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+18 dic 2013 - 05:55:03 [INFO ] bridge.RegionFactoryCacheProviderBridge - Cache provider: org.hibernate.cache.NoCacheProvider
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Structured second-level cache entries: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Echoing all SQL to stdout
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Statistics: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Default entity-mode: pojo
+18 dic 2013 - 05:55:03 [INFO ] cfg.SettingsFactory - Named query checking : enabled
+18 dic 2013 - 05:55:03 [INFO ] impl.SessionFactoryImpl - building session factory
+18 dic 2013 - 05:55:04 [INFO ] impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+18 dic 2013 - 05:55:27 [DEBUG] control.CtrlVentana - Cerrando ventana...
+18 dic 2013 - 05:55:27 [INFO ] control.CtrlVentana - Cerrando aplicación...
+25 feb 2014 - 19:23:21 [INFO ] vista.TestVentanaMainBingo - Iniciando test desde...
+25 feb 2014 - 19:23:21 [INFO ] vista.TestVentanaMainBingo - ...C:\Users\jorgesaw\workspace\SuperBingo
+25 feb 2014 - 19:23:44 [INFO ] cfg.Environment - Hibernate 3.3.2.GA
+25 feb 2014 - 19:23:44 [INFO ] cfg.Environment - hibernate.properties not found
+25 feb 2014 - 19:23:44 [INFO ] cfg.Environment - Bytecode provider name : javassist
+25 feb 2014 - 19:23:44 [INFO ] cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+25 feb 2014 - 19:23:45 [INFO ] cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+25 feb 2014 - 19:23:45 [INFO ] cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+25 feb 2014 - 19:23:45 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Bingo.hbm.xml
+25 feb 2014 - 19:23:45 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Bingo -> BINGOS
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Bingo.series -> BINGOS_SERIES
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Serie.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Serie -> SERIES
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Serie.cartones -> SERIES_CARTONES
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Carton.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Carton -> CARTONES
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Empleado.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Empleado -> EMPLEADOS
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Cobrador -> EMPLEADOS
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping subclass: ar.com.jorgesaw.superbingo.modelo.dto.Vendedor -> EMPLEADOS
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Provincia.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Provincia -> PROVINCIAS
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ciudad.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.dto.Ciudad -> CIUDADES
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Institucion.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Institucion -> INSTITUCIONES
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Loteria.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Loteria -> LOTERIAS
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/TipoLoteria.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.TipoLoteria -> TIPO_LOTERIAS
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/HoraLoteria.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.HoraLoteria -> HORA_LOTERIAS
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Sorteo.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Sorteo -> SORTEOS
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Reading mappings from resource : mapeopojo/Ganador.hbm.xml
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping class: ar.com.jorgesaw.superbingo.modelo.dto.Ganador -> GANADORES
+25 feb 2014 - 19:23:46 [INFO ] cfg.Configuration - Configured SessionFactory: null
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.superbingo.modelo.dto.Empleado.colCartones -> CARTONES
+25 feb 2014 - 19:23:46 [INFO ] cfg.HbmBinder - Mapping collection: ar.com.jorgesaw.dto.Provincia.colCiudades -> CIUDADES
+25 feb 2014 - 19:23:47 [INFO ] connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+25 feb 2014 - 19:23:47 [INFO ] connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+25 feb 2014 - 19:23:47 [INFO ] connection.DriverManagerConnectionProvider - autocommit mode: false
+25 feb 2014 - 19:23:47 [INFO ] connection.DriverManagerConnectionProvider - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/SUPERBINGO
+25 feb 2014 - 19:23:47 [INFO ] connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****}
+25 feb 2014 - 19:23:48 [WARN ] cfg.SettingsFactory - Could not obtain connection to query metadata
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:348)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2391)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2428)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2213)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:797)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2119)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2115)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1339)
+	at ar.com.jorgesaw.hibernate.HibernateUtil.buildSessionFactory(HibernateUtil.java:23)
+	at ar.com.jorgesaw.hibernate.HibernateUtil.<clinit>(HibernateUtil.java:18)
+	at ar.com.jorgesaw.dao.GenericDAOImpl.getAll(GenericDAOImpl.java:159)
+	at ar.com.jorgesaw.superbingo.modelo.servicios.ServModelRscBingo.getTipoLoterias(ServModelRscBingo.java:26)
+	at ar.com.jorgesaw.superbingo.vista.factoria.PanelBingoNuevo.creaVentana(PanelBingoNuevo.java:36)
+	at ar.com.jorgesaw.superbingo.vista.factoria.PanelBingoNuevo.<init>(PanelBingoNuevo.java:25)
+	at ar.com.jorgesaw.superbingo.vista.FactoriaPanelesGUI.creaPanelGUI(FactoriaPanelesGUI.java:20)
+	at ar.com.jorgesaw.superbingo.modelo.ModeloMainImpl.mostrarNuevoBingoGUI(ModeloMainImpl.java:51)
+	at ar.com.jorgesaw.superbingo.modelo.ModeloMainImpl.abrirVentana(ModeloMainImpl.java:19)
+	at ar.com.jorgesaw.superbingo.vista.control.CtrlMainBingoImpl.selectEvento(CtrlMainBingoImpl.java:85)
+	at ar.com.jorgesaw.superbingo.vista.control.CtrlMainBingoImpl.actionPerformed(CtrlMainBingoImpl.java:43)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.AbstractButton.doClick(Unknown Source)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(Unknown Source)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:257)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:298)
+	... 68 more
+25 feb 2014 - 19:23:49 [INFO ] dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+25 feb 2014 - 19:23:49 [INFO ] transaction.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+25 feb 2014 - 19:23:49 [INFO ] transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Scrollable result sets: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - JDBC3 getGeneratedKeys(): disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Connection release mode: auto
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Maximum outer join fetch depth: 2
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Default batch fetch size: 1
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Generate SQL with comments: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Order SQL updates by primary key: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Order SQL inserts for batching: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+25 feb 2014 - 19:23:49 [INFO ] ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Query language substitutions: {}
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - JPA-QL strict compliance: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Second-level cache: enabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Query cache: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+25 feb 2014 - 19:23:49 [INFO ] bridge.RegionFactoryCacheProviderBridge - Cache provider: org.hibernate.cache.NoCacheProvider
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Structured second-level cache entries: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Echoing all SQL to stdout
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Statistics: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Default entity-mode: pojo
+25 feb 2014 - 19:23:49 [INFO ] cfg.SettingsFactory - Named query checking : enabled
+25 feb 2014 - 19:23:49 [INFO ] impl.SessionFactoryImpl - building session factory
+25 feb 2014 - 19:23:50 [INFO ] impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+25 feb 2014 - 19:23:51 [WARN ] util.JDBCExceptionReporter - SQL Error: 0, SQLState: 08S01
+25 feb 2014 - 19:23:51 [ERROR] util.JDBCExceptionReporter - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+25 feb 2014 - 21:03:01 [DEBUG] control.CtrlVentana - Cerrando ventana...
+25 feb 2014 - 21:03:01 [INFO ] control.CtrlVentana - Cerrando aplicación...
+09 mar 2014 - 05:46:10 [INFO ] vista.TestVentanaMainBingo - Iniciando test desde...
+09 mar 2014 - 05:46:10 [INFO ] vista.TestVentanaMainBingo - ...C:\Users\jorgesaw\workspace\SuperBingo
+09 mar 2014 - 05:46:19 [DEBUG] control.CtrlVentana - Cerrando ventana...
+09 mar 2014 - 05:46:19 [INFO ] control.CtrlVentana - Cerrando aplicación...
+11 mar 2014 - 23:12:43 [INFO ] vista.TestVentanaMainBingo - Iniciando test desde...
+11 mar 2014 - 23:12:43 [INFO ] vista.TestVentanaMainBingo - ...C:\Users\jorgesaw\workspace\SuperBingo
+11 mar 2014 - 23:12:57 [DEBUG] control.CtrlVentana - Cerrando ventana...
+11 mar 2014 - 23:12:57 [INFO ] control.CtrlVentana - Cerrando aplicación...
